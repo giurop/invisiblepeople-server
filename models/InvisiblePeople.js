@@ -14,6 +14,6 @@ const invisiblePeopleSchema = new Schema({
   }],
 });
 
-const InvisiblePeople = mongoose.model('Homeless', invisiblePeopleSchema);
+const InvisiblePeople = mongoose.model('InvisiblePeople', invisiblePeopleSchema);
 
 module.exports = InvisiblePeople;
